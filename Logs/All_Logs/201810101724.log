@@ -1,0 +1,26 @@
+2018-10-10 17:24:07,323 - test - INFO - 执行测试用例：查询天气
+2018-10-10 17:24:07,325 - test - INFO - 请求的url：https://www.sojson.com/blog/305.html
+2018-10-10 17:24:18,080 - test - INFO - 请求的内容：{'city': '上海'}
+2018-10-10 17:24:18,081 - test - INFO - 获取返回的状态码:200
+2018-10-10 17:24:18,082 - test - ERROR - 请求失败！
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\Common\Base_test.py", line 21, in get
+    response_json = r.json()  # 响应内容，json类型转化成python数据类型
+  File "D:\python3.7\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\python3.7\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\python3.7\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\python3.7\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+2018-10-10 17:24:18,088 - test - ERROR - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\TestCase\test_weather.py", line 15, in test_weather
+    status_code,response_json =weather.get(url,params=payloda)
+TypeError: cannot unpack non-iterable NoneType object
+2018-10-10 17:24:25,137 - test - INFO - 执行测试用例：查询天气
+2018-10-10 17:24:25,139 - test - INFO - 请求的url：https://www.sojson.com/blog/305.html
+2018-10-10 17:24:48,558 - test - INFO - 请求的内容：{'city': '上海'}
+2018-10-10 17:24:53,200 - test - INFO - 获取返回的状态码:200

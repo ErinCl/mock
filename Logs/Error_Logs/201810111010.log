@@ -1,0 +1,46 @@
+2018-10-11 10:10:11,127 - test - ERROR - test_weather  - 22 - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "D:\pycharm\PyCharm Community Edition 2018.2.3\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.7\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.7\lib\unittest\case.py", line 1220, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.7\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: '接口一个星期前已经提示要停用,请更换新的接口,参照文档链接:https://www[42 chars]2884' != 'Success !'
+- 接口一个星期前已经提示要停用,请更换新的接口,参照文档链接:https://www.sojson.com/blog/305.html , 有问题请加QQ群:608222884
++ Success !
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\TestCase\test_weather.py", line 18, in test_weather
+    test2 = self.assertEqual(message,'Success !')
+  File "D:\pycharm\PyCharm Community Edition 2018.2.3\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 接口一个星期前已经提示要停用,请更换新的接口,参照文档链接:https://www.sojson.com/blog/305.html , 有问题请加QQ群:608222884 != Success !
+2018-10-11 10:10:20,001 - test - ERROR - test_weather  - 22 - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "D:\pycharm\PyCharm Community Edition 2018.2.3\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.7\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.7\lib\unittest\case.py", line 1220, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.7\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: '接口一个星期前已经提示要停用,请更换新的接口,参照文档链接:https://www[42 chars]2884' != 'Success !'
+- 接口一个星期前已经提示要停用,请更换新的接口,参照文档链接:https://www.sojson.com/blog/305.html , 有问题请加QQ群:608222884
++ Success !
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\TestCase\test_weather.py", line 18, in test_weather
+    test2 = self.assertEqual(message,'Success !')
+  File "D:\pycharm\PyCharm Community Edition 2018.2.3\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 接口一个星期前已经提示要停用,请更换新的接口,参照文档链接:https://www.sojson.com/blog/305.html , 有问题请加QQ群:608222884 != Success !

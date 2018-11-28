@@ -1,0 +1,54 @@
+2018-10-10 16:59:03,068 - test - ERROR - Base_test  - 25 - 请求失败！
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\Common\Base_test.py", line 21, in get
+    response_json = r.json()  # 响应内容，json类型转化成python数据类型
+  File "D:\python3.7\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\python3.7\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\python3.7\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\python3.7\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+2018-10-10 16:59:03,071 - test - ERROR - test_weather  - 22 - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\TestCase\test_weather.py", line 15, in test_weather
+    status_code,response_json =weather.get(url,params=payloda)
+TypeError: cannot unpack non-iterable NoneType object
+2018-10-10 16:59:11,095 - test - ERROR - Base_test  - 25 - 请求失败！
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\Common\Base_test.py", line 21, in get
+    response_json = r.json()  # 响应内容，json类型转化成python数据类型
+  File "D:\python3.7\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\python3.7\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\python3.7\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\python3.7\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+2018-10-10 16:59:11,098 - test - ERROR - test_weather  - 22 - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\TestCase\test_weather.py", line 15, in test_weather
+    status_code,response_json =weather.get(url,params=payloda)
+TypeError: cannot unpack non-iterable NoneType object
+2018-10-10 16:59:38,070 - test - ERROR - Base_test  - 25 - 请求失败！
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\Common\Base_test.py", line 21, in get
+    response_json = r.json()  # 响应内容，json类型转化成python数据类型
+  File "D:\python3.7\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\python3.7\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\python3.7\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\python3.7\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+2018-10-10 16:59:38,073 - test - ERROR - test_weather  - 22 - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "F:\python%2Brequests\python+requests\TestCase\test_weather.py", line 15, in test_weather
+    status_code,response_json =weather.get(url,params=payloda)
+TypeError: cannot unpack non-iterable NoneType object

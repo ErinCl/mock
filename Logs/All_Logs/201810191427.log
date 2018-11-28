@@ -1,0 +1,2 @@
+2018-10-19 14:27:38,186 - test - INFO - 执行测试用例：查询天气
+2018-10-19 14:27:38,655 - test - INFO - 请求的url：http://t.weather.sojson.com/api/weather/city/101030100
